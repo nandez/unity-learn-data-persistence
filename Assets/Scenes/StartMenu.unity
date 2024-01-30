@@ -606,7 +606,7 @@ GameObject:
   - component: {fileID: 287218781}
   - component: {fileID: 287218780}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -632,7 +632,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Best Score
+  m_text: Breakout
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1133,7 +1133,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b3f1be27dda22a4cb33fc37740824ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highScoreText: {fileID: 287218780}
   playerNameInputField: {fileID: 1610165126}
 --- !u!4 &1423056208
 Transform:
@@ -1833,7 +1832,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f15def04d6441f4ba3030220f5cb7c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bestScoreFile: {fileID: 4900000, guid: 0c802d31a6648d44fbe71bb8481193ff, type: 3}
 --- !u!4 &2131367281
 Transform:
   m_ObjectHideFlags: 0
